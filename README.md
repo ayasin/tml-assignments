@@ -11,7 +11,7 @@ In this assignment you will be required to
 
 Your classifier must be a "fine grained" classifier.  Think cat breeds, not cat vs elephant.
 
-In addition to the classification, you will need to submit answers to 3 questions:
+In addition to the classification, you will need to submit answers to 3 questions (these answers should be added to the app.py in the appropriate spot...see below):
 * How can you detect overfitting or underfitting?
 * Describe how gradient decent works.
 * What is the goal of regression?
@@ -19,6 +19,8 @@ In addition to the classification, you will need to submit answers to 3 question
 ## Tips for this week
 
 In this folder, you'll find 2 other folders, `js` and `py`.  The `js` folder is here so you can test your code, you do not need to modify the JS code at all for this assignment.  The JS application is also how I will test your code.  In the `py` folder, you'll find several files.  Most of these are related to deploying to Heroku.  You will need to edit the `app.py` file to add your custom code to serve your model.  Some of the code has been written for you. If you make changes outside of the `## EDIT CODE BELOW` and `## EDIT CODE ABOVE` marks, you will likely break the app and it will not run properly on heroku.
+
+In the app.py you will find three spots for you to fill in your answers to the assignment questions.  Delete the line `Answered question x here` and replace it with your answer.  Feel free to use multiple lines, the `"""` is a multi line string marker.
 
 If you don't have `node` installed or are unfamiliar with JS development, you can serve the JS app by going into the `js/build` folder and typing `python -m http.server`.  After this open a browser window to `localhost:8000`
 
