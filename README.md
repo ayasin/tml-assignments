@@ -16,6 +16,10 @@ In addition to the classification, you will need to submit answers to 3 question
 * Describe how gradient decent works.
 * What is the goal of regression?
 
+### Grading
+
+I will use the code in `js/build` to exersise your app (see below).  I will try a few images against your classifier.  You must correctly predict the class more often than not to pass.  I will also look at your question answers via your app.
+
 ## Tips for this week
 
 In this folder, you'll find 2 other folders, `js` and `py`.  The `js` folder is here so you can test your code, you do not need to modify the JS code at all for this assignment.  The JS application is also how I will test your code.  In the `py` folder, you'll find several files.  Most of these are related to deploying to Heroku.  You will need to edit the `app.py` file to add your custom code to serve your model.  Some of the code has been written for you. If you make changes outside of the `## EDIT CODE BELOW` and `## EDIT CODE ABOVE` marks, you will likely break the app and it will not run properly on heroku.
