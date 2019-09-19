@@ -114,7 +114,7 @@ If you receive an error from Heroku that says `no web process running` run the f
 
     This will run the model locally on your machine.  You can then use CURL
     to submit a request using `localhost:5000` as the URL to your server or
-    you can use the Javascript application and specify `localhost:8000` as the
+    you can use the Javascript application and specify `localhost:5000` as the
     location of the server.
 
 
