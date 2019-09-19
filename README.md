@@ -100,7 +100,7 @@ If you receive an error from Heroku that says `no web process running` run the f
 
     `$ python -m http.serve`
 
-    If you use the Javascript application, there will be two fields where the
+    You can now open up your browser to `localhost:8000` and view the application.  If you use the Javascript application, there will be two fields where the
     first field is the URL to your model running on Heroku so type in the URL established
     at the end of step 4.  The second field is the URL to the image you want to classify.
     Click on the *Predict!* button and observe what is returned which should be
@@ -109,12 +109,12 @@ If you receive an error from Heroku that says `no web process running` run the f
     and assuming all of your changes are finalized, do:
 
     ```
-    $ export PORT=8000
+    $ export PORT=5000
     $ python app.py
     ```
 
     This will run the model locally on your machine.  You can then use CURL
-    to submit a request using `localhost:8000` as the URL to your server or
+    to submit a request using `localhost:5000` as the URL to your server or
     you can use the Javascript application and specify `localhost:8000` as the
     location of the server.
 
