@@ -40,9 +40,8 @@ If you receive an error from Heroku that says `no web process running` run the f
    needs to be at least 4 classes: https://github.com/fastai/course-v3/blob/master/nbs/dl1/lesson2-download.ipynb.  Also keep in mind the tips for cleaning your dataset in case
    there are bad or anomalous images.
 2. Using your downloaded dataset, train a deep learning model that will classify
-   the images you downloaded.  When you're done, export the model using the
-   `cnn_learner`'s `export` method that will pack all of the necessary requirements
-   to make the model production-ready.  It will be saved in a `pkl` file.  Save this inside the `py` directory.
+   the images you downloaded.  When you're done, export the model to be production ready.  If you don't know how to do this, please watch
+   Lesson 2 of https://course.fast.ai.  Make sure you put the model inside the `py` directory.
 3. Open up the `app.py` file in the `py` directory and change the necessary
    code inside so that you can take in a URL of an image, get the actual
    image data, perform inference on it and return the prediction.  Comments
