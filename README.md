@@ -98,7 +98,7 @@ If you receive an error from Heroku that says `no web process running` run the f
     or you can use the sample Javascript application by going into the `js/build` directory
     and doing:
 
-    `$ python -m http.serve`
+    `$ python -m http.server`
 
     You can now open up your browser to `localhost:8000` and view the application.  If you use the Javascript application, there will be two fields where the
     first field is the URL to your model running on Heroku so type in the URL established
