@@ -6,7 +6,7 @@
 
 * Watch the lesson 3 video at course.fastai.com
 * Start a new notebook
-* Using the CamVid (`URLs.CAMVID` from the FastAI datasets) dataset train a UNet to at least 93% accuracy
+* Using the CamVid (`URLs.CAMVID`) from the FastAI datasets) dataset train a UNet to at least 93% accuracy
 * Once your model is trained, export it
 * Take 3 of **your own pics** (as in with your cell phone, not from the internet) at street view of scenes that may contain roads, cars, people, buildings, trees, grass, bushes, etc (in any combination)
 * Load the model from the export.
